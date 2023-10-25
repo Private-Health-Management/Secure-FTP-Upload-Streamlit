@@ -2,9 +2,10 @@ import streamlit as st
 import paramiko
 
 st.set_page_config(page_title='PHM Secure-Send', page_icon="✉️")
-col1, mid, col2 = st.columns([1,1,2])
+col1, mid, col2 = st.columns([1,2,2])
 with col1:
-    st.image('logo-dark.png', width=300)
+    # st.image('logo-dark.png', width=300)
+    st.image('light-logo.png', width = 400)
 with col2:
     st.title('PHM Secure-Send')
 # st.title('PHM Secure-Send')
