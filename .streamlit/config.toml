@@ -3,7 +3,3 @@ maxUploadSize = 200
 
 [theme]
 base = "dark"
-primaryColor="#21154A"
-backgroundColor="#FF6B00"
-secondaryBackgroundColor="#45E1E4"
-font="sans serif"
