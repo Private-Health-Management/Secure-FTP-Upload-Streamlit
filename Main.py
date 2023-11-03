@@ -2,7 +2,7 @@ import streamlit as st
 import paramiko
 st.set_page_config(page_title='PHM Secure-Send', page_icon="✉️")
 
-email = st.text_input('Please enter a valid entry string')
+email = st.text_input('Please enter a valid email')
 if email in st.secrets["email_list"]:
     col1, mid, col2 = st.columns([1,2,2])
     with col1:
