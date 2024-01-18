@@ -17,7 +17,7 @@ if email in st.secrets["email_list"]:
     server = 'phmsftpstorage.blob.core.windows.net'
     user = st.text_input('Please Enter your username')
     user = 'phmsftpstorage.' + user
-    password = st.text_input('Please enter your password')
+    password = st.text_input('Please enter your password', type = "password")
 
     file = st.file_uploader('Please Upload your Files here', accept_multiple_files=True)
 
